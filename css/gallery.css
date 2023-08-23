@@ -4,6 +4,11 @@ html {
     background-image: linear-gradient(rgb(161, 88, 4), rgb(5, 45, 78));
 }
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
 .property {
     width: 900px;
     margin: auto;
