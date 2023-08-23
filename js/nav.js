@@ -4,7 +4,7 @@ const createNav = () => {
     nav.innerHTML = `
         <div class="navbar">
             <div class="dropdown">
-            <button class="dropbtn"> Cars <i>▼</i>
+            <button class="dropbtn"> Cars ▾
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
