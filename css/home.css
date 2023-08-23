@@ -1,0 +1,31 @@
+@import 'nav.css';
+
+html {
+    background-image: linear-gradient(rgb(4, 80, 29), rgb(49, 49, 49));
+}
+
+.bg-img {
+    background-image: url("/img/lancia-delta.webp");
+  
+    min-height: 1080px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    position: relative;
+}
+  
+.container {
+    position: fixed;
+    margin: 10px;
+    width: auto;
+    right: 30px;
+}
+
+.logo{
+    width: 7%;
+    height: auto;
+    position: absolute;
+    left: px;
+}

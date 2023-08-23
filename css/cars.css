@@ -1,0 +1,12 @@
+.center {
+    float: left;
+    width:  600px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 200px;
+    margin-left: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: black;
+    border-style: dashed;
+}
