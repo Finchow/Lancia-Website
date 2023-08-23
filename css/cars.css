@@ -1,5 +1,7 @@
 html {
-    background-image: linear-gradient(rgb(239, 245, 189), rgb(2, 28, 66));
+    background-image: linear-gradient(rgb(2, 28, 66), rgb(3, 73, 3));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
 
 .center {
@@ -7,10 +9,16 @@ html {
     width:  600px;
     height: auto;
     object-fit: contain;
-    margin-right: 200px;
+    margin-right: 80000px;
     margin-left: 650px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-color: black;
     border-style: dashed;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 900px;
+    margin-top: 60;
 }

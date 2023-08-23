@@ -1,0 +1,114 @@
+html {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(5, 45, 78));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root{
+--color: #333; 
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/lancia-delta.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-size: 20;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  letter-spacing: .5px;
+}
+
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url(/img/lancia17.jpg);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+.card > a {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: rgb(34, 34, 34);;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(/img/fulvia.jpg);
+}
+
+.img-second {
+  background-image: url(/img/Delat.jpg);
+}
+
+.img-third {
+  background-image: url(/img/Lancia-Appia.jpg);
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}

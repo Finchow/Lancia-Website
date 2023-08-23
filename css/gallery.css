@@ -13,8 +13,8 @@ html {
 .slideshow {
     background: #262626;
     border-radius: 10px;
-    margin-top: 180px;
-    margin-bottom: 20px;
+    margin-top: 200px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -192,4 +192,3 @@ html {
     -webkit-animation: none;
             animation: none;
   }
- 
