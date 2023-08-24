@@ -1,13 +1,11 @@
 .navbar {
-    display: flex;
     overflow: hidden;
+    display: flex;
+    justify-content: left;
     background-color: #333;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    right: 40;
     border-radius: 10px;
     position: fixed;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 .navbar a {
@@ -67,3 +65,4 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+

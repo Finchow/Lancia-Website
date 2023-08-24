@@ -4,7 +4,7 @@ html {
     color: white;
 }
 
-.center {
+/**.center {
     float: left;
     width:  600px;
     height: auto;
@@ -16,9 +16,22 @@ html {
     border-color: black;
     border-style: dashed;
     text-align: center;
+}**/
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+img {
+    width: 600px;
+    height: auto;
 }
 
 h1 {
-    margin-left: 900px;
     margin-top: 60;
 }

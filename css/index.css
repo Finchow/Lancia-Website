@@ -1,3 +1,5 @@
+@import 'nav.css';
+
 html {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(5, 45, 78));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -40,6 +42,7 @@ p {
   line-height: 1.5;
   padding: 1em;
   color: white;
+  font-size: large;
 }
 
 a {
@@ -120,7 +123,7 @@ h3 {
 
 a:hover {
   transform: 0.3;
-  color: rgb(184, 184, 233);
+  color: rgb(111, 111, 253);
 }
 
 @keyframes slideUp {
@@ -128,11 +131,16 @@ a:hover {
     transform: translateY(500px);
   }
   to {
-    transform: rotateY(0px);
+    transform: translateY(0px);
   }
   
 }
 
 .item {
-  animation: slideUp 3s ease-in 0s 1 normal none;
+  animation: slideUp 3s ease-in-out 0s 1 normal none;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
 }
