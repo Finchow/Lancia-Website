@@ -112,3 +112,27 @@ h3 {
   flex-direction: row;
   gap: 1.6em;
 }
+
+.item:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+
+a:hover {
+  transform: 0.3;
+  color: rgb(184, 184, 233);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: rotateY(0px);
+  }
+  
+}
+
+.item {
+  animation: slideUp 3s ease-in 0s 1 normal none;
+}
